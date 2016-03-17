@@ -32,7 +32,7 @@ body {
 }
 
 #navigation-bar-brand {
-    background: url(/BozorgOn/res/Zoomit/login-logo.png) no-repeat right top;
+    background: url(../res/Zoomit/login-logo.png) no-repeat right top;
     height: 45px;
     width: 222px;
     position: absolute;
