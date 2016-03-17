@@ -1,0 +1,57 @@
+body {
+    font-family: IRANSans, Tahoma, serif;
+    font-size: 14px;
+    background: #f0f0f0;
+    font-weight: 400;
+    direction: ltr;
+    display: block;
+}
+
+*:after *:before {
+    box-sizing: border-box;
+}
+
+#navigation-bar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    height: 80px;
+    background: #333;
+    border: none;
+    box-shadow: 0 -1px 36px #000 inset;
+    direction: rtl;
+}
+
+#navigation-bar-header {
+    height: 80px;
+    width: 268px;
+    position: relative;
+    background: #b10e1e;
+    margin-left: 10px;
+}
+
+#navigation-bar-brand {
+    background: url(/BozorgOn/res/Zoomit/login-logo.png) no-repeat right top;
+    height: 45px;
+    width: 222px;
+    position: absolute;
+    right: 25px;
+    top: 18px;
+    background-size: cover;
+    color: #777;
+}
+
+#side-menu {
+    background-color: aqua;
+    width: 300px;
+    height: 500px;
+}
+
+#top-header {
+
+}
+
+.dir-rtl {
+    direction: rtl;
+}
