@@ -39,6 +39,7 @@ ul, ol {
 #navigation-bar-top-row-right {
     list-style: none;
     color: white;
+    padding-top: 5px;
 }
 
 #navigation-bar-top-row-right li {
