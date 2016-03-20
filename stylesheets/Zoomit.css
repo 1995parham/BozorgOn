@@ -29,6 +29,37 @@ ul, ol {
     direction: rtl;
 }
 
+#navigation-bar-news {
+    width: 80px;
+    height: 80px;
+    float: left;
+    background: #af0c1b;
+    box-shadow: 5px -10px 12px #1b1b1b;
+}
+
+#navigation-bar-news-day {
+    font-size: 30px;
+    font-family: YekanNumbers, Tahoma;
+}
+
+#navigation-bar-news-display {
+    display: block;
+    font-family: YekanNumbers, IRANSans;
+}
+
+#navigation-bar-news-counter {
+    font-family: YekanNumbers, Tahoma, serif;
+    width: 80px;
+    height: 80px;
+    display: block;
+    color: #fff;
+    padding-top: 5px;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+}
+
 #navigation-bar-top-row {
     height: 30px;
     width: 100%;
