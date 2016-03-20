@@ -8,6 +8,11 @@ body {
     margin: 0
 }
 
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
 *:after *:before {
     box-sizing: border-box;
 }
@@ -24,12 +29,31 @@ body {
     direction: rtl;
 }
 
+#navigation-bar-top-row {
+    height: 30px;
+    width: 100%;
+    background: #1b1b1b;
+    box-shadow: 4px -5px 8px #000 inset;
+}
+
+#navigation-bar-top-row-right {
+    list-style: none;
+    color: white;
+}
+
+#navigation-bar-top-row-right li {
+    float: right;
+    padding: 0 5px;
+}
+
 #navigation-bar-header {
     height: 80px;
     width: 268px;
     position: relative;
     background: #b10e1e;
     margin-left: 10px;
+    display: inline-block;
+    float: right;
 }
 
 #navigation-bar-brand {
