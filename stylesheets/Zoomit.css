@@ -38,12 +38,22 @@ ul, ol {
 
 #navigation-bar-top-row-right {
     list-style: none;
-    color: white;
+    color: rgb(170, 170, 170);
     padding-top: 5px;
 }
 
 #navigation-bar-top-row-right li {
     float: right;
+    padding: 0 5px;
+}
+
+#navigation-bar-top-row-left {
+    list-style: none;
+    color: white;
+}
+
+#navigation-bar-top-row-left li {
+    float: left;
     padding: 0 5px;
 }
 
