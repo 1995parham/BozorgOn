@@ -96,6 +96,7 @@ ul, ol {
     margin-left: 10px;
     display: inline-block;
     float: right;
+    box-shadow: -5px -10px 12px #1b1b1b;
 }
 
 #navigation-bar-brand {
