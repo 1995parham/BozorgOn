@@ -106,6 +106,12 @@ ul, ol {
     color: #777;
 }
 
+#ads-section {
+    margin: 0 0 0 10px;
+    height: 500px;
+    display: inline-block;
+}
+
 #ads-gird {
     height: 100%;
 }
@@ -180,12 +186,6 @@ ul, ol {
     color: white;
 }
 
-.content {
-    margin: 0 0 0 10px;
-    height: 500px;
-    display: inline-block;
-}
-
 .container {
     max-width: 1330px;
     padding: auto 15px;
@@ -195,6 +195,7 @@ ul, ol {
 .side-menu {
     width: 300px;
     float: left;
+    clear: left;
 }
 
 .float-left {
