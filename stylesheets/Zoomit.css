@@ -126,13 +126,29 @@ ul, ol {
 
 .ads-box {
     margin: 0;
-    padding: 1px;
+    padding: 0;
     position: relative;
 }
 
 .ads-box img {
     width: 100%;
     height: 100%;
+}
+
+.ads-box .cover {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: linear-gradient(180deg, rgba(19, 25, 31, .3) 20%, rgba(19, 25, 31, 1) 70%);
+}
+
+.ads-box:hover .cover {
+    display: block;
 }
 
 .ads-box .caption {
@@ -148,16 +164,17 @@ ul, ol {
 }
 
 .caption h3 {
-    margin-bottom: -10px;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 13px;;
+    margin-right: 15px;
+    margin-bottom: -10px;
     -webkit-font-smoothing: subpixel-antialiased;
     text-shadow: 0 0 3px #333;
     color: #ff9b37;
 }
 
 .caption h2 {
-    font-size: 22px;
+    font-size: 14px;
     line-height: 40px;
     width: 90%;
     margin: auto;
