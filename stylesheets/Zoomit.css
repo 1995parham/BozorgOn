@@ -127,8 +127,8 @@ ul, ol {
 }
 
 #feature-news-topics {
-    padding: 20px;
-    height: auto;
+    padding: 20px 5px;
+    overflow: auto;
     background-color: white;
     border: 1px solid #e2e2e2;
 }
@@ -137,6 +137,7 @@ ul, ol {
     float: right;
     width: 231px;
     height: auto;
+    padding-right: 10px;
 }
 
 .news-col img {
@@ -236,7 +237,7 @@ ul, ol {
     max-width: 1330px;
     padding: 15px;
     margin: 50px auto;
-    height: 100%;
+    overflow: auto;
 }
 
 .left-menu {
