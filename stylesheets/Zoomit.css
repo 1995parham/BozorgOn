@@ -159,6 +159,8 @@ ul, ol {
 .caption h2 {
     font-size: 22px;
     line-height: 40px;
+    width: 90%;
+    margin: auto;
     color: white;
 }
 
