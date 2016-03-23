@@ -110,6 +110,12 @@ ul, ol {
     height: 100%;
 }
 
+.ads-col {
+    float: right;
+    width: 328px;
+    height: 100%;
+}
+
 .ads-box-single {
     height: 33.3%;
 }
@@ -119,9 +125,8 @@ ul, ol {
 }
 
 .ads-box {
-    width: 328px;
     margin: 0;
-    padding: 0;
+    padding: 1px;
     position: relative;
 }
 
