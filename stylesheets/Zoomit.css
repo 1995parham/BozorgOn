@@ -136,6 +136,24 @@ footer .list li {
     color: #aaa;
 }
 
+footer .list-image {
+    margin-bottom: 15px;
+}
+
+footer .list-image img {
+
+}
+
+footer .list-image .caption {
+    color: #aaa;
+    font-size: 14px;
+    font-family: IRANSans-web, Tahoma, serif;
+}
+
+footer .list-image .caption h4 {
+    margin: 0 0 15px;
+}
+
 /* ================================================================================================================== */
 /* General CSS */
 
