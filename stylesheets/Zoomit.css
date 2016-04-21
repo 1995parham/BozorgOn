@@ -270,12 +270,11 @@ ul, ol {
 /* Side Advertisements CSS */
 
 .side-ads {
-    padding: 0;
-    margin: 0;
 }
 
 .side-ads a img {
     width: 100%;
+    padding-bottom: 5px;
 }
 
 /* ================================================================================================================== */
