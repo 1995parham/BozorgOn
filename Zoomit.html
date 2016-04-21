@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>دنیای فناوری - زومیت</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.css"/>
     <link rel="stylesheet" href="stylesheets/Zoomit.css"/>
     <link href="fonts/farsi.css" rel="stylesheet"/>
 
@@ -33,18 +34,18 @@
     </div>
 </nav>
 <div class="container">
-    <aside class="left-menu">
-        <a>
-            <img src="res/Zoomit/ads-zood_food.gif" alt=""/>
-        </a>
-        <a>
-            <img src="res/Zoomit/ads-signal.gif" alt=""/>
-        </a>
-    </aside>
-    <section id="ads-section">
-        <div id="ads-gird">
-            <div class="ads-col">
-                <div class="ads-box ads-box-double">
+    <div class="row">
+        <aside class="col-md-3 side-ads">
+            <a>
+                <img src="res/Zoomit/ads-zood_food.gif" alt=""/>
+            </a>
+            <a>
+                <img src="res/Zoomit/ads-signal.gif" alt=""/>
+            </a>
+        </aside>
+        <section id="top-stories" class="col-md-9">
+            <div class="top-stories-col col-md-4">
+                <div class="top-story-box top-story-box-double">
                     <img src="res/Zoomit/ads-ai-2.jpg" alt=""/>
                     <div class="cover"></div>
                     <div class="caption">
@@ -52,7 +53,7 @@
                         <h2>همه‌ی باورهای نادرست در مورد هوش مصنوعی (قسمت دوم- پایانی)</h2>
                     </div>
                 </div>
-                <div class="ads-box ads-box-single">
+                <div class="top-story-box top-story-box-single">
                     <img src="res/Zoomit/ads-europe.jpg" alt=""/>
                     <div class="cover"></div>
                     <div class="caption">
@@ -61,8 +62,8 @@
                     </div>
                 </div>
             </div>
-            <div class="ads-col">
-                <div class="ads-box ads-box-single">
+            <div class="top-stories-col col-md-4">
+                <div class="top-story-box top-story-box-single">
                     <img src="res/Zoomit/ads-marketing.jpg" alt=""/>
                     <div class="cover"></div>
                     <div class="caption">
@@ -70,7 +71,7 @@
                         <h2>۱۵ مهارت لازم برای بازاریابان دیجیتالی</h2>
                     </div>
                 </div>
-                <div class="ads-box ads-box-single">
+                <div class="top-story-box top-story-box-single">
                     <img src="res/Zoomit/ads-new_year.jpg" alt=""/>
                     <div class="cover"></div>
                     <div class="caption">
@@ -78,7 +79,7 @@
                         <h2>سال نو مبارک</h2>
                     </div>
                 </div>
-                <div class="ads-box ads-box-single">
+                <div class="top-story-box top-story-box-single">
                     <img src="res/Zoomit/ads-manager.jpg" alt=""/>
                     <div class="cover"></div>
                     <div class="caption">
@@ -87,8 +88,8 @@
                     </div>
                 </div>
             </div>
-            <div class="ads-col">
-                <div class="ads-box ads-box-single">
+            <div class="top-stories-col col-md-4">
+                <div class="top-story-box top-story-box-single">
                     <img src="res/Zoomit/ads-vote.jpg" alt=""/>
                     <div class="cover"></div>
                     <div class="caption">
@@ -96,7 +97,7 @@
                         <h2>نظرسنجی: مهمترین رویداد فناوری اطلاعات و ارتباطات ایران در سال ۹۴ چه بود؟</h2>
                     </div>
                 </div>
-                <div class="ads-box ads-box-double">
+                <div class="top-story-box top-story-box-double">
                     <img src="res/Zoomit/ads-ai-1.jpg" alt=""/>
                     <div class="cover"></div>
                     <div class="caption">
@@ -105,65 +106,108 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <aside class="left-menu">
-        <a>
-            <img src="res/Zoomit/ads-madiran.gif" alt=""/>
-        </a>
-        <a>
-            <img src="res/Zoomit/ads-goldiran.gif" alt=""/>
-        </a>
-        <a>
-            <img src="res/Zoomit/ads-tadbir.gif" alt=""/>
-        </a>
-        <a>
-            <img src="res/Zoomit/ads-mery.gif" alt=""/>
-        </a>
-    </aside>
-    <aside class="right-menu">
-        <a>
-            <img src="res/Zoomit/ads-digikala.gif" alt=""/>
-        </a>
-        <a>
-            <img src="res/Zoomit/ads-atra.gif" alt=""/>
-        </a>
-    </aside>
-    <section class="news-section">
-        <div class="news">
-            <h3 class="little-title">پیشنهاد سردبیر</h3>
-            <div class="news-topics">
-                <div class="news-col">
-                    <img src="res/Zoomit/news-galaxy_s7.jpg" alt=""/>
-                    <h6>اخبار فناوری</h6>
-                    <h4>کالبد شکافی گالسی اس 7 از سوی چیپ‌ورکس</h4>
-                </div>
-                <div class="news-col">
-                    <img src="res/Zoomit/news-bentley_mulsanne.jpg" alt=""/>
-                    <h6>خودرو</h6>
-                    <h4>بنتلی مولسان معرفی شد؛ تعریف واژه Luxury</h4>
-                </div>
-                <div class="news-col">
-                    <img src="res/Zoomit/news-iphone_7.jpg" alt=""/>
-                    <h6>موبایل</h6>
-                    <h4>آیفون 7 با ضخامت ۶.۱ میلی متری و بلندگوهای استریو عرضه شد</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="news-section">
-        <div class="news">
-            <h3 class="little-title">مطالب جدید</h3>
-            <div class="news-topics">
-                <div class="news-row">
-                    <img src="res/Zoomit/news-gadget.jpg" alt=""/>
-                    <div class="content">
-                        <h3>۱۰ گجت فوق‌العاده که قیمت آن‌ها زیر ۵۰ دلار است</h3>
+        </section>
+    </div>
+    <div class="row">
+        <aside class="col-md-3 side-ads pull-left">
+            <a>
+                <img src="res/Zoomit/ads-madiran.gif" alt=""/>
+            </a>
+            <a>
+                <img src="res/Zoomit/ads-goldiran.gif" alt=""/>
+            </a>
+            <a>
+                <img src="res/Zoomit/ads-tadbir.gif" alt=""/>
+            </a>
+            <a>
+                <img src="res/Zoomit/ads-mery.gif" alt=""/>
+            </a>
+        </aside>
+        <aside class="col-md-3 side-ads pull-right">
+            <a>
+                <img src="res/Zoomit/ads-digikala.gif" alt=""/>
+            </a>
+            <a>
+                <img src="res/Zoomit/ads-atra.gif" alt=""/>
+            </a>
+        </aside>
+        <section class="center-section col-md-6">
+            <div class="news">
+                <h3 class="little-title">پیشنهاد سردبیر</h3>
+                <div class="topics-row">
+                    <div class="news-col col-md-4">
+                        <img src="res/Zoomit/news-galaxy_s7.jpg" alt=""/>
+                        <h6>اخبار فناوری</h6>
+                        <h4>کالبد شکافی گالسی اس 7 از سوی چیپ‌ورکس</h4>
+                    </div>
+                    <div class="news-col col-md-4">
+                        <img src="res/Zoomit/news-bentley_mulsanne.jpg" alt=""/>
+                        <h6>خودرو</h6>
+                        <h4>بنتلی مولسان معرفی شد؛ تعریف واژه Luxury</h4>
+                    </div>
+                    <div class="news-col col-md-4">
+                        <img src="res/Zoomit/news-iphone_7.jpg" alt=""/>
+                        <h6>موبایل</h6>
+                        <h4>آیفون 7 با ضخامت ۶.۱ میلی متری و بلندگوهای استریو عرضه شد</h4>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="center-section col-md-6">
+            <div id="hot-topics">
+                <h3 class="little-title">مطالب جدید</h3>
+                <div class="topics-row">
+                    <div class="hot-topic">
+                        <div class="content col-md-7">
+                            <h3>
+                                کجارو: چگونه گذرنامه بگیریم؟
+                            </h3>
+                            <p>
+                                گذرنامه یا پاسپورت نوعی شناسنامه بین‌ المللی است که از طریق آن، دولت‌ها از دولت‌های دیگر
+                                درخواست می‌کنند اجازه ورود به خاک یا گذر از خاکشان را به فرد بدهند. در ایران نیز افرادی
+                                که قصد خروج از کشور را دارند،‌ باید گذرنامه داشته باشند. در این مقاله از کجارو به بررسی
+                                فرآیند دریافت گذرنامه در ایران می‌پردازیم.
+                            </p>
+                        </div>
+                        <img class="col-md-5" src="res/Zoomit/hot-topic-passport.jpg" alt=""/>
+                    </div>
+                    <div class="hot-topic">
+                        <div class="content col-md-7">
+                            <h3>
+
+                            </h3>
+                            <p>
+
+                            </p>
+                        </div>
+                        <img class="col-md-5" src="res/Zoomit/hot-topic-picture.jpg" alt=""/>
+                    </div>
+                    <div class="hot-topic">
+                        <div class="content col-md-7">
+                            <h3>
+
+                            </h3>
+                            <p>
+
+                            </p>
+                        </div>
+                        <img class="col-md-5" src="res/Zoomit/hot-topic-todo.jpg" alt=""/>
+                    </div>
+                    <div class="hot-topic">
+                        <div class="content col-md-7">
+                            <h3>
+
+                            </h3>
+                            <p>
+
+                            </p>
+                        </div>
+                        <img class="col-md-5" src="res/Zoomit/hot-topic-yahoo.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
 </body>
 </html>
