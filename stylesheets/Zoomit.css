@@ -115,6 +115,7 @@ ul, ol {
     padding: 13px 13px 27px;
     margin-bottom: -12px;
     line-height: 14px;
+    direction: rtl;
 }
 
 .topics-col {
@@ -129,7 +130,7 @@ ul, ol {
 }
 
 /* ================================================================================================================== */
-/* Popular topics */
+/* Popular Topics CSS */
 
 #popular-topics {
 }
@@ -142,6 +143,35 @@ ul, ol {
 .popular-topic img {
     width: 100%;
     height: 100%;
+}
+
+/* ================================================================================================================== */
+/* Educational Topics CSS */
+
+#educational-topics {
+
+}
+
+.educational-topic {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px #ddd solid;
+    overflow: auto;
+}
+
+.educational-topic img {
+    margin: 0;
+    padding: 0;
+}
+
+.educational-topic .content {
+    color: #666;
+    display: inline-block;
+    direction: rtl;
+}
+
+.educational-topic .content h3 {
+    font-size: 14px;
 }
 
 /* ================================================================================================================== */
