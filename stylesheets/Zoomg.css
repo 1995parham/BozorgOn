@@ -4,6 +4,281 @@ body {
 
 }
 
+/***************************************************/
+.menu {
+    overflow: hidden;
+    visibility: hidden;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 1168px;
+    z-index: 6;
+    background-color: #202022;
+}
+
+.menu > aside {
+    width: 15%;
+    float: right;
+    height: 100%;
+    padding: 20px 0 30px 0;
+}
+
+.menu > aside > ul {
+    display: inline-block;
+    width: 100%;
+    padding: 0 5% 0 5%;
+    margin: 0;
+}
+
+.menu > aside > ul > li {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > aside > ul > li h2 {
+    display: inline-block;
+    width: 100%;
+    font-family: yekan, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
+.menu > aside > ul > li h1 {
+    display: inline-block;
+    width: 100%;
+    font-family: yekan, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
+.menu > section {
+    overflow: hidden;
+    width: 84.5%;
+    float: left;
+    background-color: white;
+    position: relative;
+    bottom: 0;
+}
+
+.menu > section > ul {
+    display: inline-block;
+    width: 100%;
+    padding: 0%;
+    direction: rtl;
+}
+
+.menu > section > ul > li {
+    display: inline-block;
+    margin: 0;
+    padding: 20px 1.5% 20px 1.5%;
+    float: right;
+    width: 16.9%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.menu > section > ul > li img {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+}
+
+.menu > section > ul > li h1 {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #3f3f3f;
+    font-family: yekan, 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.menu > section h2 {
+    display: inline-block;
+    font-family: yekan, 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 1.5%;
+    margin: 0;
+}
+
+.m2:hover + .menu-2 {
+    visibility: initial;
+}
+
+.menu-2:hover {
+    visibility: initial;
+}
+
+.menu-2 h2 {
+    color: #f26547;
+}
+
+.menu-2 > section {
+    height: 380px;
+}
+
+/****/
+.m3:hover + .menu-3 {
+    visibility: initial;
+}
+
+.menu-3:hover {
+    visibility: initial;
+}
+
+.menu-3 h2 {
+    color: #00c8f8;
+}
+
+.menu-3 > section {
+    height: 415px;
+}
+
+/****/
+.m4:hover + .menu-4 {
+    visibility: initial;
+}
+
+.menu-4:hover {
+    visibility: initial;
+}
+
+.menu-4 h2 {
+    color: #7822cf;
+}
+
+.menu-4 > section {
+    height: 380px;
+}
+
+/****/
+.m5:hover + .menu-5 {
+    visibility: initial;
+}
+
+.menu-5:hover {
+    visibility: initial;
+}
+
+.menu-5 h2 {
+    color: #0fb700;
+}
+
+.menu-5 > section {
+    height: 380px;
+}
+
+/****/
+.m6:hover + .menu-6 {
+    visibility: initial;
+}
+
+.menu-6:hover {
+    visibility: initial;
+}
+
+.menu-6 h2 {
+    color: #ffc33c;
+}
+
+.menu-6 > section {
+    height: 380px;
+}
+
+/****/
+.m7:hover + .menu-7 {
+    visibility: initial;
+}
+
+.menu-7:hover {
+    visibility: initial;
+}
+
+.menu-7 h2 {
+    color: #dd3333;
+}
+
+.menu-7 > section {
+    height: 380px;
+}
+
+/****/
+.m8:hover + .menu-8 {
+    visibility: initial;
+}
+
+.menu-8:hover {
+    visibility: initial;
+}
+
+.menu-8 h2 {
+    color: #46c9c5;
+}
+
+.menu-8 > section {
+    height: 380px;
+}
+
+/****/
+.end-of-header-icon {
+    display: inline-block;
+    float: left;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+/* ================================================================================================================== */
+/* Navigation CSS */
+#navigation ul {
+    list-style: none;
+}
+
+#navigation ul li h1 {
+    color: rgb(223, 222, 230);
+    font-size: 14px;
+}
+
+#navigation ul li {
+    float: right;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+#navigation ul li:nth-of-type(1) {
+    line-height: 15px;
+}
+
+#navigation ul li:nth-of-type(1) img {
+    width: 11px;
+    height: 11px;
+}
+
+#navigation ul li:nth-of-type(1) h1 {
+    position: relative;
+    bottom: 0;
+    padding-top: 10px;
+}
+
+#navigation {
+    direction: rtl;
+    background-color: rgba(25, 25, 26, 0.921569);
+    width: 100%;
+}
+
 /* ================================================================================================================== */
 /* Header CSS */
 
@@ -369,6 +644,7 @@ footer {
 
 #footer-copyright {
     color: #AEAEBB;
+    background-color: #f3f3f3;
     font-size: 12px;
 }
 
