@@ -242,6 +242,22 @@ footer .form-email {
     padding: 5px;
 }
 
+.float-right {
+    float: right;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.dir-rtl {
+    direction: rtl;
+}
+
 /* ================================================================================================================== */
 /* Popular Topics CSS */
 
@@ -466,19 +482,3 @@ footer .form-email {
 }
 
 /* ================================================================================================================== */
-
-.float-right {
-    float: right;
-}
-
-.clear-right {
-    clear: right;
-}
-
-.clear-left {
-    clear: left;
-}
-
-.dir-rtl {
-    direction: rtl;
-}
