@@ -222,7 +222,10 @@ body {
 }
 
 .reviewing-box .content .meter-circle {
-
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
 }
 
 .reviewing-box .content .user-ratting {
