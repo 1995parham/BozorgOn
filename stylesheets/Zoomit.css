@@ -471,6 +471,56 @@ footer .form-email {
 }
 
 /* ================================================================================================================== */
+/* Watching CSS */
+
+#watching {
+    background: #222;
+    padding: 25px 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#watching h3 {
+    text-align: right;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.watching-box {
+    height: 100%;
+    margin: 0;
+    padding: 0 5px;
+    position: relative;
+}
+
+.watching-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.watching-box .caption {
+    line-height: 20px;
+    text-shadow: 1px 1px 3px #000;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    direction: rtl;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(19, 25, 31, 0) 30%, rgba(19, 25, 31, 1) 75%);
+}
+
+.watching-box .caption h2 {
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px #000;
+    line-height: 38px;
+    width: 90%;
+    margin: 0 auto 40px;
+    color: white;
+}
+
+/* ================================================================================================================== */
 /* Side Advertisements CSS */
 
 .side-ads {
