@@ -113,11 +113,54 @@ ul, ol {
 /* Footer CSS */
 
 #footer {
-    background: #222;
     padding: 25px 25px;
-    color: #FFF;
     position: relative;
     direction: rtl;
+}
+
+.footer-content {
+    background: #222;
+    color: #FFF;
+}
+
+#footer-copyright {
+    background: #0d0d0d;
+    color: #FFF;
+    min-height: 30px;
+    line-height: 40px;
+}
+
+footer .linear-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+
+}
+
+footer .linear-list li {
+    float: right;
+    margin-left: 15px;
+}
+
+footer .linear-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .divider {
+    background-color: #383838;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer .ads a {
+    color: rgb(201, 16, 33);
+}
+
+#footer-logo {
+    padding-top: 20px;
 }
 
 footer h3 {
