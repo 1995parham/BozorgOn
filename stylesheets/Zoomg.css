@@ -1,3 +1,7 @@
+body {
+    background-color: #D2D2D8;
+}
+
 /* ================================================================================================================== */
 /* Header CSS */
 
@@ -5,7 +9,6 @@
     width: 100%;
     height: 110px;
     overflow: hidden;
-    position: absolute;
     background: #000;
 }
 
@@ -22,4 +25,143 @@
     font-size: 16px;
     color: #DEDEE6;
     padding: 1px;
+}
+
+/* ================================================================================================================== */
+/* General CSS */
+
+.float-right {
+    float: right;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.dir-rtl {
+    direction: rtl;
+}
+
+/* ================================================================================================================== */
+/* Billboard CSS */
+
+#billboard {
+    position: relative;
+}
+
+.billboard-image {
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    background: url(http://zoomg.ir/wp-content/uploads/2016/02/The_Good_Dinosaur_Promo_Art_03ss.jpg) center 20%;
+}
+
+.billboard-overlay {
+    background: linear-gradient(to bottom, rgba(210, 210, 216, 0) 30%, rgba(210, 210, 216, 1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+}
+
+.billboard {
+    position: relative;
+    top: 20px;
+    direction: rtl;
+}
+
+.billboard .main-title {
+    color: #FFF;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
+    font-size: 70px;
+    line-height: 85px;
+    font-family: Yekan, 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 70px 50px 80px 70px;
+}
+
+.billboard .billboard-avatar {
+    width: 48px;
+    margin: 0 auto;
+}
+
+.billboard .billboard-subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .8);
+    font-family: Yekan, 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.billboard .billboard-authorship {
+    font-family: Yekan, 'Roboto Slab', sans-serif;
+    margin: 10px auto;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .8);
+    font-size: 16px;
+}
+
+.billboard .billboard-authorship a {
+    text-align: center;
+    color: #FFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .8);
+    font-size: 16px;
+}
+
+/* ================================================================================================================== */
+/* Content Box CSS */
+
+#content-box {
+    position: relative;
+    top: -450px;
+    background: #ffffff;
+    margin-top: 68px;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#content-box-main {
+    font-size: 15px;
+    word-wrap: break-word;
+    text-align: justify;
+    font-family: Yekan, 'Roboto Condensed', sans-serif;
+}
+
+#content-box-main p {
+    margin: 10px 20px 0 0;
+}
+
+#content-box-main img {
+    max-width: 100%;
+    height: auto;
+}
+
+#content-box-main .quote-left,
+#content-box-main .quote-right {
+    width: 30%;
+    margin: 0 30px 0 10px;
+    font-size: 21px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #FF2654;
+    padding: 5px;
+}
+
+#content-box-main .quote-left {
+    float: left;
+}
+
+#content-box-main .quote-right {
+    float: right;
 }
